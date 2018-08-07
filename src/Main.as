@@ -23,7 +23,7 @@ package
 		private var racket:Racket;
 		public var bricksArray:Array = [];
 		public var lvlGenerator:LevelGenerator;
-		private function init(e:Event = null):void 
+		private function init(e:Event = null):void
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			stage.scaleMode     = StageScaleMode.NO_SCALE;
